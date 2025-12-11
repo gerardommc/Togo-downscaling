@@ -1,4 +1,6 @@
 # === 0. LOAD LIBRARIES ===
+# This script was developed by Sandra Milena Castaño Quintero, https://github.com/Salamanadra
+
 library(terra)      
 library(tidyverse)  
 library(hydroGOF)   # Contains hydrological goodness-of-fit metrics (though KGE is manually defined here)

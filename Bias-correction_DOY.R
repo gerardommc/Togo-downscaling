@@ -5,6 +5,8 @@
 # 01_bias_doy.R
 # Daily bias (DOY ±15) NASANEX vs GloH2O in the model grid
 # Output: NetCDF file with 366 DOY bias layers (factor for pr; delta for tas)
+# This script was developed by Sandra Milena Castaño Quintero, https://github.com/Salamanadra
+
 
 pkg <- c("terra", "sf", "fields", "lubridate", "ncdf4")
 sapply(pkg, \(p) if (!requireNamespace(p, quietly = TRUE)) install.packages(p))

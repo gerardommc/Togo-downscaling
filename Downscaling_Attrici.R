@@ -2,6 +2,7 @@
 # ATTRICI (Counterclim) Downscaling and Bias Correction
 # Applies DOY bias (GloH2O vs ATTRICI) and interpolates to 10 km grid.
 # Target period: Historical Baseline (1979–2014)
+# This script was developed by Sandra Milena Castaño Quintero, https://github.com/Salamanadra
 # =========================================================================
 
 library(terra)

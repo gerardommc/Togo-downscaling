@@ -3,6 +3,7 @@
 # using pre-calculated DOY biases (baseline 1979–2014)
 # and a custom 10 km grid
 # For one GCM at a time (example: GFDL-ESM4)
+# This script was developed by Sandra Milena Castaño Quintero, https://github.com/Salamanadra
 # ==========================================
 
 library(terra)

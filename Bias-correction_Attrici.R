@@ -3,6 +3,7 @@
 # This script computes the Day Of Year (DOY) climatological bias 
 # between a coarse GCM (Attrici/NEX-GDDP) and a reference dataset (GloH2O).
 # The calculated bias is used for subsequent bias correction and downscaling.
+# This script was developed by Sandra Milena Castaño Quintero, https://github.com/Salamanadra
 # =========================================================================
 
 library(terra)
